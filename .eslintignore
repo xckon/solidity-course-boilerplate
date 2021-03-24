@@ -1,0 +1,4 @@
+node_modules
+dist
+coverage
+contracts/*.sol
