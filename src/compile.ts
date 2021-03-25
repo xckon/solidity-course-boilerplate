@@ -8,4 +8,4 @@ const source = readFileSync(contractPath, {
   encoding: 'utf-8',
 });
 
-export default compile(source, 1); 
+export default compile(source, 1).contracts[':Inbox']; 
